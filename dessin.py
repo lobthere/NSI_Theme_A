@@ -1,4 +1,7 @@
 import turtle # module pour le dessin
 
-for i in range(20):
-    turtle.circle(i)
+a = 10
+
+for i in range(6):
+    turtle.circle(a)
+    a += 1
